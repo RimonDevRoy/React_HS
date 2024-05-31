@@ -9,6 +9,12 @@ THUMB.txt
 02basicreact_npx/package-lock.json
 02basicreact_npx/node_modules/
 02basicreact_npx/.gitignore
+02basicreact_npx/src/App.css
+02basicreact_npx/src/App.test.js
+02basicreact_npx/src/index.css
+02basicreact_npx/src/logo.svg
+02basicreact_npx/src/reportWebVitals.js
+02basicreact_npx/src/setupTests.js
 
 02basicreact_vite/public
 02basicreact_vite/package.json
@@ -17,6 +23,9 @@ THUMB.txt
 02basicreact_vite/node_modules/
 02basicreact_vite/.gitignore
 02basicreact_vite/vite.config.js
+02basicreact_vite/src/assets/
+02basicreact_vite/src/App.css
+02basicreact_vite/src/index.css
 
 03basicreact_npx/README.md
 03basicreact_npx/build
@@ -24,6 +33,12 @@ THUMB.txt
 03basicreact_npx/package-lock.json
 03basicreact_npx/node_modules/
 03basicreact_npx/.gitignore
+03basicreact_npx/src/App.css
+03basicreact_npx/src/App.test.js
+03basicreact_npx/src/index.css
+03basicreact_npx/src/logo.svg
+03basicreact_npx/src/reportWebVitals.js
+03basicreact_npx/src/setupTests.js
 
 03basicreact_vite/public
 03basicreact_vite/package.json
@@ -32,6 +47,9 @@ THUMB.txt
 03basicreact_vite/node_modules/
 03basicreact_vite/.gitignore
 03basicreact_vite/vite.config.js
+03basicreact_vite/src/assets/
+03basicreact_vite/src/App.css
+03basicreact_vite/src/index.css
 
 04basicreact_npx/README.md
 04basicreact_npx/build
@@ -39,6 +57,12 @@ THUMB.txt
 04basicreact_npx/package-lock.json
 04basicreact_npx/node_modules/
 04basicreact_npx/.gitignore
+04basicreact_npx/src/App.css
+04basicreact_npx/src/App.test.js
+04basicreact_npx/src/index.css
+04basicreact_npx/src/logo.svg
+04basicreact_npx/src/reportWebVitals.js
+04basicreact_npx/src/setupTests.js
 
 04basicreact_vite/public
 04basicreact_vite/package.json
@@ -47,6 +71,9 @@ THUMB.txt
 04basicreact_vite/node_modules/
 04basicreact_vite/.gitignore
 04basicreact_vite/vite.config.js
+04basicreact_vite/src/assets/
+04basicreact_vite/src/App.css
+04basicreact_vite/src/index.css
 
 05basicreact_npx/README.md
 05basicreact_npx/build
@@ -54,6 +81,12 @@ THUMB.txt
 05basicreact_npx/package-lock.json
 05basicreact_npx/node_modules/
 05basicreact_npx/.gitignore
+05basicreact_npx/src/App.css
+05basicreact_npx/src/App.test.js
+05basicreact_npx/src/index.css
+05basicreact_npx/src/logo.svg
+05basicreact_npx/src/reportWebVitals.js
+05basicreact_npx/src/setupTests.js
 
 05basicreact_vite/public
 05basicreact_vite/package.json
@@ -62,6 +95,9 @@ THUMB.txt
 05basicreact_vite/node_modules/
 05basicreact_vite/.gitignore
 05basicreact_vite/vite.config.js
+05basicreact_vite/src/assets/
+05basicreact_vite/src/App.css
+05basicreact_vite/src/index.css
 
 06basicreact_npx/README.md
 06basicreact_npx/build
@@ -69,6 +105,12 @@ THUMB.txt
 06basicreact_npx/package-lock.json
 06basicreact_npx/node_modules/
 06basicreact_npx/.gitignore
+06basicreact_npx/src/App.css
+06basicreact_npx/src/App.test.js
+06basicreact_npx/src/index.css
+06basicreact_npx/src/logo.svg
+06basicreact_npx/src/reportWebVitals.js
+06basicreact_npx/src/setupTests.js
 
 06basicreact_vite/public
 06basicreact_vite/package.json
@@ -77,6 +119,9 @@ THUMB.txt
 06basicreact_vite/node_modules/
 06basicreact_vite/.gitignore
 06basicreact_vite/vite.config.js
+06basicreact_vite/src/assets/
+06basicreact_vite/src/App.css
+06basicreact_vite/src/index.css
 
 07basicreact_npx/README.md
 07basicreact_npx/build
@@ -84,6 +129,12 @@ THUMB.txt
 07basicreact_npx/package-lock.json
 07basicreact_npx/node_modules/
 07basicreact_npx/.gitignore
+07basicreact_npx/src/App.css
+07basicreact_npx/src/App.test.js
+07basicreact_npx/src/index.css
+07basicreact_npx/src/logo.svg
+07basicreact_npx/src/reportWebVitals.js
+07basicreact_npx/src/setupTests.js
 
 07basicreact_vite/public
 07basicreact_vite/package.json
@@ -92,3 +143,6 @@ THUMB.txt
 07basicreact_vite/node_modules/
 07basicreact_vite/.gitignore
 07basicreact_vite/vite.config.js
+07basicreact_vite/src/assets/
+07basicreact_vite/src/App.css
+07basicreact_vite/src/index.css
