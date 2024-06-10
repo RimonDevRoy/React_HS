@@ -75,18 +75,19 @@ THUMB.txt
 04basicreact_vite/src/App.css
 04basicreact_vite/src/index.css
 
-05basicreact_npx/README.md
-05basicreact_npx/build
-05basicreact_npx/package.json
-05basicreact_npx/package-lock.json
-05basicreact_npx/node_modules/
-05basicreact_npx/.gitignore
-05basicreact_npx/src/App.css
-05basicreact_npx/src/App.test.js
-05basicreact_npx/src/index.css
-05basicreact_npx/src/logo.svg
-05basicreact_npx/src/reportWebVitals.js
-05basicreact_npx/src/setupTests.js
+05counter_project/README.md
+05counter_project/build
+05counter_project/package.json
+05counter_project/package-lock.json
+05counter_project/node_modules/
+05counter_project/.gitignore
+05counter_project/src/App.css
+05counter_project/src/App.test.js
+05counter_project/src/index.css
+05counter_project/src/logo.svg
+05counter_project/src/reportWebVitals.js
+05counter_project/src/setupTests.js
+05counter_project/public
 
 05basicreact_vite/public
 05basicreact_vite/package.json
