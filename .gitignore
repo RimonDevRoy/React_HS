@@ -89,16 +89,15 @@ THUMB.txt
 05counter_project/src/setupTests.js
 05counter_project/public
 
-05basicreact_vite/public
-05basicreact_vite/package.json
-05basicreact_vite/package-lock.json
-05basicreact_vite/README.md
-05basicreact_vite/node_modules/
-05basicreact_vite/.gitignore
-05basicreact_vite/vite.config.js
-05basicreact_vite/src/assets/
-05basicreact_vite/src/App.css
-05basicreact_vite/src/index.css
+07tailwind_props/public
+07tailwind_props/package.json
+07tailwind_props/package-lock.json
+07tailwind_props/README.md
+07tailwind_props/node_modules/
+07tailwind_props/.gitignore
+07tailwind_props/vite.config.js
+07tailwind_props/src/assets/
+07tailwind_props/src/App.css
 
 06basicreact_npx/README.md
 06basicreact_npx/build
