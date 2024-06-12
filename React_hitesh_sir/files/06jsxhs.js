@@ -50,9 +50,21 @@ A push-based approach requires the app (you, the programmer) to decide how to sc
 
 ● Improved reconciliation: React Fiber includes an improved reconciliation algorithm, which is the process of comparing the current state of the UI with the new state and updating the UI accordingly. This improved algorithm makes the reconciliation process more efficient and results in faster UI updates.
 
-● 
+● scheduling
+the process of determining when work should be performed.
+work
+any computations that must be performed. Work is usually the result of an update (e.g. setState).
 
-● 
+● We've established that a primary goal of Fiber is to enable React to take advantage of scheduling. Specifically, we need to be able to
+
+1. pause work and come back to it later.
+2. assign priority to different types of work.
+3. reuse previously completed work.
+4. abort work if it's no longer needed.
+
+● What I speculated is that the createRoot(element) makes the given element the root HTML tag and the JSX written inside it is rendered in the browser in the form of actual DOM and React keeps its own track as Virtual DOM where the root HTML tag is resembled by the given element in createRoot()
+
+● Another speculation is that the Virtual DOM is split into chunks, that is, rendering is split into chunks and spread into mulitple frames. And only the frames that are associated with the part of DOM that is changed are taken into account for UI updation.
 
 ● 
 
