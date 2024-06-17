@@ -182,7 +182,7 @@ This shows that arrays will render the JSX elements inside it as they are in the
 
 ● In UI, the functionalities to change any value in the UI is executed based on the current state. That means, wherever the values of things are in now will act as current value and will be changed according to the setMethod.
 
-● 
+● No need to write index.js in path of imported file because it is by default called.
 
 ● 
 

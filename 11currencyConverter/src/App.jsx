@@ -1,7 +1,6 @@
-import { useState } from "react";
-import { InputBox } from "./components/InputBox";
-// No need to write index.js because it is by default called.
-import { useCurrencyInfo } from "./hooks/useCurrencyInfo";
+import { useState } from 'react'
+import {InputBox} from './components'
+import useCurrencyInfo from './hooks/useCurrencyInfo'
 
 function App() {
   const [amount, setAmount] = useState(0);
