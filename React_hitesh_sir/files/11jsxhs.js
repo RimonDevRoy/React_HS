@@ -180,7 +180,7 @@ export default function Poem() {
 
 This shows that arrays will render the JSX elements inside it as they are in the webpage. Similar is for objects and functions too maybe.
 
-● 
+● In UI, the functionalities to change any value in the UI is executed based on the current state. That means, wherever the values of things are in now will act as current value and will be changed according to the setMethod.
 
 ● 
 
