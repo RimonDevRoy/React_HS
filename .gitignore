@@ -137,16 +137,16 @@ assets/
 11currencyConverter/src/App.css
 11currencyConverter/src/index.css
 
-06basicreact_vite/public
-06basicreact_vite/package.json
-06basicreact_vite/package-lock.json
-06basicreact_vite/README.md
-06basicreact_vite/node_modules/
-06basicreact_vite/.gitignore
-06basicreact_vite/vite.config.js
-06basicreact_vite/src/assets/
-06basicreact_vite/src/App.css
-06basicreact_vite/src/index.css
+12reactRouter/public
+12reactRouter/package.json
+12reactRouter/package-lock.json
+12reactRouter/README.md
+12reactRouter/node_modules/
+12reactRouter/.gitignore
+12reactRouter/vite.config.js
+12reactRouter/src/assets/
+12reactRouter/src/App.css
+12reactRouter/src/index.css
 
 06basicreact_vite/public
 06basicreact_vite/package.json
