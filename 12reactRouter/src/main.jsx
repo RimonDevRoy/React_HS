@@ -13,7 +13,7 @@ import About from "./components/About/About.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import User from "./components/User/User.jsx";
 import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
-import { Routes } from "react-router-dom";
+
 
 // First syntax
 // const router = createBrowserRouter([
