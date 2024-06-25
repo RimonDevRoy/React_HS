@@ -12,9 +12,7 @@ function App() {
   };
 
   const updateTodo = (id, todo) => {
-    setTodos((prev) =>
-      prev.map((prevTodo) => (prevTodo.id === id ? todo : prevTodo))
-    );
+    setTodos((prev) => prev.map((prevTodo) => (prevTodo.id === id ? todo : prevTodo)));
   };
 
   const deleteTodo = (id) => {
@@ -27,31 +25,27 @@ function App() {
 
   const toggleComplete = (id) => {
     //console.log(id);
-    setTodos((prev) =>
-      prev.map(
-        (prevTodo) =>
-          prevTodo.id === id
-            ? { ...prevTodo, completed: !prevTodo.completed }
-            : prevTodo
-        /*
-        In the situations like the ones above, we can use '!' to alter between the previous state and new state of boolean.
-        */
-      )
+    setTodos((prev) => prev.map((prevTodo) => prevTodo.id === id ? { ...prevTodo, completed: !prevTodo.completed } : prevTodo)
+    /*
+    In the situations like the ones above, we can use '!' to alter between the previous state and new state of boolean.
+    */
     );
   };
 
   useEffect(() => {
-    const todos = JSON.parse(localStorage.getItem("nono"));
-    console.log(todos)
-    console.log(localStorage.getItem("nono"))
+    const todos = JSON.parse(localStorage.getItem("todos")); // This 'todos' is temporary, just to store the previous todos.
+    console.log(todos);
+    console.log(localStorage.getItem("todos"));
 
     if (todos && todos.length > 0) {
       setTodos(todos);
     }
+    // Absence of dependency array probably makes it run only on initial render.(research by self)
   }, []);
 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
+    // Here, as 'todos' is already an array, it is stringified as array. Every time a new todo is added, the 'todos' array is updated and this useEffect again sets the stringified array into localStorage.
   }, [todos]);
 
   return (

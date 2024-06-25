@@ -22,7 +22,7 @@ function TodoForm() {
         className="w-full border border-black/10 rounded-l-lg px-3 outline-none duration-150 bg-white/20 py-1.5"
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
-        // Because we need to continuously update the value in the UI and under the hood it will also help us to get the latest value of it.
+        // Because we need to continuously update the value in the UI and under the hood it will also help us to get the latest value of todo. States are reset on every refresh. One way to store it is localStorage.
       />
       <button
         type="submit"
