@@ -103,19 +103,32 @@ In this scenario, the chef represents the action creator, who follows the recipe
 
 1. Make a store using configureStore()
 
-2. Make reducers using createReducer() in Redux. Make slices using createSlice() in RTK. slice in RTK is a bigger version of reducer in Redux.
+2. Make slices using createSlice() in RTK. slice in RTK is a bigger version of reducer in Redux.
 
-nanoid is a method in RTK that generates unique ids just like useId.
+3. Create an initial state for the slice of the store. It can be either array or object.
 
-3. Create an initial state for the store. It can be either array or object.
-
-4. Make reducers inside slices in RTK. All reducers have must arguments named 'state' and 'action'.
+4. Make reducers inside slices in RTK. All reducers have compulsory arguments named 'state' and 'action'.
 
 -> State: It gives access to the current state of the global states. The reducer function contains two parameters one of them is the state. The State is an object that holds some information that may change over the lifetime of the component. If the state of the object changes, the component has to re-render. In redux, Updation of state happens in the reducer function. In a Redux application, you cannot modify application state directly. The only way to change the state is by dispatching actions: This restriction ensures that state changes are predictable. Redux store and the dispatch() function is provided by it to allow components access to the state of an application. The only way in it
 
 -> Action: An action, is an object that contains the payload of information. Any action and information passed to a reducer is received by its action argument object and can be accessed through 'payload' property of it. Actions serve as messengers that convey information from your application to the Redux store, triggering state updates.
 
-● Unlike default Context methods, we have to declare as well as define the methods in reducers.
+Syntax of a slice:
+
+const slice_variable_name = createSlice({
+  name: 'slice_name',
+  initialState: [] / {},
+  reducers: {
+    reducer1: (state, action) => { code to execute upon invocation },
+    reducer2: (state, action) => { code to execute upon invocation },
+    reducer3: (state, action) => { code to execute upon invocation },
+    .
+    .
+    .
+  }
+})
+
+● Unlike default Context methods, we have to declare as well as define the methods in reducers object.
 
 ● A slice is the portion of Redux code that relates to a specific set of data and actions within the store's state. For example, there might be two sets of data to be managed seperately. Thus, we need two different slices for both of them.
 
@@ -131,7 +144,7 @@ For instance, in a Notes application, an action to create a note might include a
 
 ● useDispatch() takes help from a reducer to make changes in store.
 
-● We cannot use reducers on their own. We need to use them inside useDispatch(). We just pass the payload infos as arguments in the reducer. In intial times we had to write time consuming syntax like action.payload etc. in the argument. If we have multiple infos, we can pass them in comma seperated fashion.
+● We cannot use reducers on their own. We need to use them inside useDispatch(). We just pass the payload infos as arguments in the reducer. In intial times we had to write time consuming syntax like action.payload etc. in the argument. If we have multiple infos, we can pass them in wrapped in an object as payload itself is an object.
 
 ● We get the 'state' as argument in the callback inside useSelector().
 
@@ -139,19 +152,22 @@ For instance, in a Notes application, an action to create a note might include a
 
 ● All the states are under the hood accessed by store. In useSelector((state) => code) the state is combined form of all the states of all slices. That means, we can access a state from one slice and also another slice.
 
-● 
+● In Redux Toolkit, a slice is a bundled package containing reducer logic and related actions for a specific state section.
 
-● 
+● createSlice
+A function that accepts an initial state, an object of reducer functions, and a "slice name", and automatically generates action creators and action types that correspond to the reducers and state.
 
-● 
+This API is the standard approach for writing Redux logic.
 
-● 
+● Slices could also be compared with mini-portions(like Auth and others) of the store.(speculation)
 
-● 
+● 'forEach' loops executes the given callback for every element in the array. 'map' loops returns a new array with the new elements after doing operations given inside the given callback. 'filter' loops return a new array with the new elements that are true for the given condition in given callback. 'reduce' loops take a callback function to execute for each element in the array. Its return value becomes the value of the accumulator parameter on the next invocation of callbackFn. For the last invocation, the return value becomes the return value of reduce().
 
-● 
+● All 'slices' are under the hood contained by 'store'.
 
-● 
+● The 'type' of action is slice_name/reducer_name.
+
+● States have their updated values reflected in all places, be it UI or in any value of code. Its updation is dynamic, that is, on the spot updation with no need to re-run the whole app.
 
 ● 
 
@@ -294,4 +310,3 @@ For instance, in a Notes application, an action to create a note might include a
 ● 
 
 */
-
