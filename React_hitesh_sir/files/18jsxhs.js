@@ -7,7 +7,7 @@
 
 ● In most of the cases, whenever value of environment variables are updated, the project needs to be restarted.
 
-● In vite project, we access environment variables by:
+● In create-react-app project, we access environment variables by:
 
 process.env.environment_var
 
